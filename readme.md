@@ -15,19 +15,22 @@ $ npm install snapcode
 ## Usage (in code)
 
 ```javascript
-var snapcode = require('pokemon-picker');
+var snapcode = require('snapcode');
 ```
 
-### ` snapcode.username(name: string, function(svg) {
+ 
+```javascript
+snapcode.username(name: string, function(svg) {
         console.log(svg);
-      });`
+      });
+```
 
 Returns SVG.
 
 ## Examples
 
 ```javascript
-var pokemon = require('pokemon-picker');
+var snapcode = require('snapcode');
 
 snapcode.username("Test", function(svg) {
   console.log(svg);
