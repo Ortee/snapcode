@@ -1,0 +1,30 @@
+{
+  "name": "snapcode",
+  "version": "1.0.0",
+  "description": "SVG SNAPCODE",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json",
+    "example": "node example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:Ortee/snapcode.git"
+  },
+  "author": {
+      "name": "Mateusz Oracz",
+      "email": "kontakt@mateuszoracz.pl",
+      "url": "http://mateuszoracz.pl/"
+  },
+  "keywords": [
+       "snapchat",
+       "snapcode",
+       "snap"
+   ],
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.5.2",
+    "request": "^2.75.0"
+  }
+}
