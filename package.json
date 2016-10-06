@@ -20,7 +20,10 @@
   "keywords": [
        "snapchat",
        "snapcode",
-       "snap"
+       "snap",
+       "snapcode js",
+       "orteedev",
+       "ortee snapcode"
    ],
   "license": "MIT",
   "devDependencies": {
