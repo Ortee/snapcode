@@ -24,7 +24,9 @@
    ],
   "license": "MIT",
   "devDependencies": {
-    "jasmine": "^2.5.2",
+    "jasmine": "^2.5.2"
+  },
+  "dependencies": {
     "request": "^2.75.0"
   }
 }
